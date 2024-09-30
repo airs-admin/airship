@@ -1,0 +1,10 @@
+repositories:
+  neo_local_planner2:
+    type: git
+    url: https://github.com/neobotix/neo_local_planner2
+    version: 9a888ce117ed986c9540697f44024217775d57b4
+
+  Grounded-Segment-Anything:
+    type: git
+    url: https://github.com/IDEA-Research/Grounded-Segment-Anything
+    version: 126abe633ffe333e16e4a0a4e946bc1003caf757

@@ -1,0 +1,7 @@
+torch == 2.3.0
+tensorboard==2.3.0
+numpy == 1.23.5
+scipy == 1.14.0
+open3d>=0.8
+Pillow
+tqdm

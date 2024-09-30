@@ -1,0 +1,16 @@
+# Request
+float64 x
+float64 y
+float64 theta
+
+---
+
+# Response
+uint8 status
+
+# Defintion.
+uint8 SUCCESS = 0
+uint8 SUCCES_BY_REACHING_CLOEST_POINT = 1
+uint8 FAILED_TO_FIND_PATH = 2
+uint8 FAILED_TIMEOUT = 3
+uint8 FAILED = 4

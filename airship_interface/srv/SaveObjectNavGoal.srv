@@ -1,0 +1,5 @@
+string path_nav_goal_list
+
+---
+bool result
+string message

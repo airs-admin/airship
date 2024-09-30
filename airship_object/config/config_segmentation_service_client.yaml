@@ -1,0 +1,6 @@
+# Name of the segmentation service server
+name_segmentation_service_server: '/airship_perception/SegmentationMapping'
+# The timeout duration for requesting the object segmentation service
+request_timeout: 15.0
+# Table of semantic labels
+path_label_table: '/home/airsbot2/airship/src/airship/airship_perception/lib/configs/semantic_label_table.txt'

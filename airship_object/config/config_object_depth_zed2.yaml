@@ -1,0 +1,18 @@
+# Depth camera intrinsic 
+K: 
+  - [260.8268737792969, 0, 347.7888488769531]
+  - [0, 260.8268737792969, 186.49160766601562]
+  - [0, 0, 1]
+image_width: 672
+image_height: 376
+
+# Using base_link as the origin, the extrinsic parameters from camera_optical_frame to base_link
+R: 
+  - [0, 0, 1]
+  - [-1, 0, 0]
+  - [0, -1, 0]
+T: [0.02713, 0.06, 0.0621]
+
+# Erosion algorithm parameters for filtering out edge errors in object segmentation mask
+erosion_size_kernel: 6
+erosion_num_iterations: 3

@@ -1,0 +1,10 @@
+# Config path
+path_config_grounding_dino: '/home/airsbot2/airship/src/airship/airship_perception/lib/GroundingDINO/groundingdino/config/GroundingDINO_SwinT_OGC.py'
+
+# Classes path
+path_map_classes: '/home/airsbot2/airship/src/airship/airship_perception/lib/configs/semantic_label_table.txt'
+
+# Model path
+path_model_bert_base_uncased: '/home/airsbot2/airship/src/airship/airship_perception/lib/models/bert-base-uncased'
+path_model_grounding_dino: '/home/airsbot2/airship/src/airship/airship_perception/lib/models/groundingdino_swint_ogc.pth'
+path_model_sam: '/home/airsbot2/airship/src/airship/airship_perception/lib/models/sam_vit_h_4b8939.pth'

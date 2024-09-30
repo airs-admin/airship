@@ -1,0 +1,16 @@
+# speech record audio path
+speech_record_path: '/home/airsbot2/airship/src/airship/airship_chat/lib/speech_record.wav'
+
+# Wake-up audio path
+wakeup_audio_path: '/home/airsbot2/airship/src/airship/airship_chat/lib/wakeup.wav'
+
+# player device index
+player_device_index: 'hw:3,0'
+
+# sphinx model settings
+sphinx_model_path: '/home/airsbot2/airship/src/airship/airship_chat/lib/Sphinx_airship'
+sphinx_model_name: '2747'
+
+# OpenAI API settings
+openai_api_key: 'xxxxxxxxxxxxxxxxxxxxxxxxxx'
+openai_base_url: 'https://api.openai.com/v1'

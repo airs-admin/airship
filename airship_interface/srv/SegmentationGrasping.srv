@@ -1,0 +1,6 @@
+# Request
+string object
+sensor_msgs/Image image
+---
+# Response
+sensor_msgs/Image mask

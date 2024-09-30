@@ -1,0 +1,4 @@
+semantic_map_file: "nav_goal.yaml"
+llm_server_url: "https://74a5-116-6-48-9.ngrok-free.app/api/chat"
+
+

@@ -1,0 +1,21 @@
+<robot name="airsbot2">
+
+  <link name="imu_link" />
+
+  <link name="rslidar" />
+
+  <link name="base_link" />
+
+  <joint name="imu_link_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="imu_link" />
+    <origin xyz="0.292 0 0.336" />
+  </joint>
+
+  <joint name="rslidar_joint" type="fixed">
+    <parent link="base_link" />
+    <child link="rslidar" />
+    <origin rpy="0 0 0" xyz="0.292 0 0.436" />
+  </joint>
+</robot>
+

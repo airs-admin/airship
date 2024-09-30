@@ -1,0 +1,17 @@
+# Request
+string msg
+
+---
+
+# Response
+int64 ret
+
+# Definition
+int64 SUCCESS = 0
+int64 ROBOT_BUSY = 1
+int64 EMPYT_INSTRUCTION = 2
+int64 NAV_FAILED = 3
+int64 PICK_FAILED = 4
+int64 PLACE_FAILED = 5
+int64 UNKNOWN_TASK = 6
+
